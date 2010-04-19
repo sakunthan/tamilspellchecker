@@ -4,21 +4,31 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>tamildic@ulagam.net</em:id>
-    <em:version>0.1</em:version>
+    <em:version>0.3</em:version>
   <!-- Target Application this extension can install into, 
          with minimum and maximum supported versions. --> 
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>1.5</em:minVersion>
-        <em:maxVersion>3.0.*</em:maxVersion>
+        <em:maxVersion>3.7a5pre</em:maxVersion>
       </Description>
+    </em:targetApplication>
+    <em:targetApplication>
+	<Description>
+	   <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+	   <em:minVersion>1.5</em:minVersion>
+	   <em:maxVersion>3.2a1pre</em:maxVersion>
+	</Description>
     </em:targetApplication>
    
     <!-- Front End MetaData -->
     <em:name>Tamil Spell Checker for Firefox</em:name>
     <em:description>Tamil Spell Checker and Dictionary for Firefox</em:description>
     <em:creator>Balachandar Muruganantham</em:creator>
+    <em:contributor>Muguntharaj</em:contributor>
+    <em:contributor>RaviShankar</em:contributor>
+    <em:contributor>Sundar</em:contributor>
     <em:homepageURL>http://www.ulagam.net</em:homepageURL>
   </Description>      
 

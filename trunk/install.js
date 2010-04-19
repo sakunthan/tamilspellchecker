@@ -1,4 +1,4 @@
-var err = initInstall("Tamil Spell Checker", "ta-TA@dictionaries.addons.mozilla.org", "0.1");
+var err = initInstall("Tamil Spell Checker", "ta-TA@dictionaries.addons.mozilla.org", "0.2");
 if (err != SUCCESS)
     cancelInstall();
 
