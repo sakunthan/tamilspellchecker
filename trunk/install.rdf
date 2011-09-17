@@ -4,6 +4,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>tamildic@ulagam.net</em:id>
+    <em:unpack>true</em:unpack>
     <em:version>0.3</em:version>
   <!-- Target Application this extension can install into, 
          with minimum and maximum supported versions. --> 
@@ -31,5 +32,4 @@
     <em:contributor>Sundar</em:contributor>
     <em:homepageURL>http://www.ulagam.net</em:homepageURL>
   </Description>      
-
 </RDF>
