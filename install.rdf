@@ -5,7 +5,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>tamildic@ulagam.net</em:id>
     <em:unpack>true</em:unpack>
-    <em:version>0.3</em:version>
+    <em:version>0.4</em:version>
   <!-- Target Application this extension can install into, 
          with minimum and maximum supported versions. --> 
     <em:targetApplication>
